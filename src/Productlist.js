@@ -6,10 +6,9 @@ function Productlist(props) {
             {products.map((product) => (
                 <div>
                     {product.no}.
-                    
-                        Name : {product.name}
-                        Price : {product.price}
-                       ImageURL : {product.img}
+                        Name : {product.name}&nbsp;&nbsp;
+                    Price : {product.price}&nbsp;&nbsp;
+                    ImageURL : {product.img}&nbsp;&nbsp;
                     
                 </div>
             ))}
